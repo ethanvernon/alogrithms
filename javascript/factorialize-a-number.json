@@ -1,0 +1,17 @@
+
+function factorialize(num) {
+var temp = num;
+if (num==0) {
+return 1;
+}
+for (var i=0; i<=num; i++) {
+if (i==0) {
+temp=1;
+}
+else {
+temp *= i;
+}
+}
+num=temp;
+return num;
+}
