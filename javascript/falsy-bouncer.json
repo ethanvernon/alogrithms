@@ -1,0 +1,1 @@
+{"index.js":"function bouncer(arr) {\n\n  /*Remove all falsy values from an array.\n\n  Falsy values in JavaScript are false, null, 0, \"\", \n  undefined, and NaN.*/\n\n  let newArr=[];\n  for (let i=0; i<arr.length; i++) {\n    if (arr[i]) {\n      newArr.push(arr[i]);\n    }\n  }\n\n  return newArr;\n}\n\nbouncer([7, \"ate\", \"\", false, 9]);"}
